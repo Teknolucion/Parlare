@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Cookie Test</title>
+
+        <script>
+
+            
+        function checkCookieButton( action ) {
+            var cookie = getCookie(document.getElementById("cookie1").value);
+            
+            alert("If Cookie Exists: " + document.getElementById("cookie1").value + "? " + cookie);
+
+            if (cookie !== null && cookie !== "") {
+                alert("Cookie Exists: " + cookie);
+
+                if (action === "delete") {
+                    eraseCookie(document.getElementById("cookie1").value);
+                }
+
+            } else {
+                cookie = prompt("Please enter your cookie with name is: " + document.getElementById("cookie1").value, "");
+                if (cookie !== null && cookie !== "") {
+                    setCookie(document.getElementById("cookie1").value, cookie, 60);
+                }
+            }
+
+            location.reload();
+
+        }
+        </script>
+    </head>
+    <body>
+        
+        <!--#exec java="net.wapportal.controller.ControllerJSON" -->
+        
+        <input type="text" id="cookie1" value="cookie1">
+        
+        <input type="button" name="Check Cookie" value="Create" onclick="checkCookieButton('create');">
+        <input type="button" name="Check Cookie" value="Delete" onclick="checkCookieButton('delete');">
+        
+        
+    </body>
+</html>

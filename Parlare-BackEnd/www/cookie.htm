@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Cookie Test</title>
+
+        <script>
+            function getCookie(c_name)
+            {
+                alert(document.cookie);
+                var c_value = document.cookie;
+                var c_start = c_value.indexOf(" " + c_name + "=");
+                if (c_start === -1)
+                {
+                    c_start = c_value.indexOf(c_name + "=");
+                }
+                if (c_start === -1)
+                {
+                    c_value = null;
+                }
+                else
+                {
+                    c_start = c_value.indexOf("=", c_start) + 1;
+                    var c_end = c_value.indexOf(";", c_start);
+                    if (c_end === -1)
+                    {
+                        c_end = c_value.length;
+                    }
+                    c_value = unescape(c_value.substring(c_start, c_end));
+                }
+                return c_value;
+            }
+
+            function setCookie(c_name, value, exdays)
+            {
+                var exdate = new Date();
+                exdate.setDate(exdate.getDate() + exdays);
+                var c_value = escape(value) + ((exdays === null) ? "" : "; expires=" + exdate.toUTCString());
+                
+                alert(c_name + "=" + c_value);
+                
+                document.cookie = c_name + "=" + c_value;
+            }
+            
+            function deleteCookie(c_name, value, exdays)
+            {
+                var exdate = new Date();
+                exdate.setDate(exdate.getDate() + exdays);
+                var c_value = escape(value) + ((exdays === null) ? "" : "; expires=" + exdate.toUTCString());
+                
+                alert(c_name + "=" + c_value);
+                
+                document.cookie = c_name + "=" + c_value;
+            }
+
+            function checkCookie()
+            {
+                var username = getCookie("username");
+
+
+                if (username !== null && username !== "") {
+                    alert("Welcome again " + username);
+                }
+                else
+                {
+                    username = prompt("Please enter your name:", "");
+                    if (username !== null && username !== "")
+                    {
+                        setCookie("username", username, 365);
+                    }
+                }
+            }
+            
+            function checkCookieButton( action ) {
+                var cookie = getCookie(document.getElementById("cookie1").value);
+                alert("If Cookie Exists: " + document.getElementById("cookie1").value + "? " + cookie);
+
+                    if (cookie !== null && cookie !== "") {
+                        alert("Cookie Exists: " + cookie);
+                        
+                        if ( action === "delete" ) {
+                            deleteCookie(document.getElementById("cookie1").value, cookie, -90);
+                        }
+                        
+                    }
+                    else
+                    {
+                        cookie = prompt("Please enter your cookie with name is: "+document.getElementById("cookie1").value, "");
+                        if (cookie !== null && cookie !== "")
+                        {
+                            setCookie(document.getElementById("cookie1").value, cookie, 60);
+                        }
+                    }
+                    
+                    location.reload();
+                    
+                }
+        </script>
+    </head>
+    <body>
+        
+        
+        <!--#exec java="net.wapportal.controller.ControllerJSON" -->
+        
+        <input type="text" id="cookie1" value="cookie1">
+        
+        <input type="button" name="Check Cookie" value="Create" onclick="checkCookieButton('create');">
+        <input type="button" name="Check Cookie" value="Delete" onclick="checkCookieButton('delete');">
+        
+        
+    </body>
+</html>
