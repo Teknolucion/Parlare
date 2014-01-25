@@ -29,7 +29,7 @@ How do I configure my Parlare Server?
 
 Portions of this software are based on the following projects:
 
-"nanohttpd". Copyright (c) 2012-2013 by Paul S. Hawke, 2001,2005-2013 by Jarno Elonen, 2010 by Konstantinos Togias
+"nanohttpd". Copyright (c) 2012-2013 by Paul S. Hawke. 2001,2005-2013 by Jarno Elonen. 2010 by Konstantinos Togias
 
 "emberjs"
 
@@ -38,5 +38,5 @@ Portions of this software are based on the following projects:
 "mongodb"
 
 
-Copyright (C) 2014. Jesus Rodriguez Miranda. Teknolucion. 
+Copyright (C) 2013-2014. Jesus Rodriguez Miranda. Teknolucion. 
 Parlare has been released under a GNU GENERAL PUBLIC LICENSE. 
