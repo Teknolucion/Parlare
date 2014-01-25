@@ -14,7 +14,7 @@ All with one click and one single package, with simple wizards and without progr
 
 
 
-How do you install?
+How do I install?
 =======
 
 You need install Java SE 7 or up. On Windows, Mac, Linux or Solaris.
