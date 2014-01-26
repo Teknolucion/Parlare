@@ -2,22 +2,13 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>parlare.server.restful</groupId>
+    <groupId>parlare.application.restful</groupId>
     <artifactId>parlare-restful</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>Parlare-RESTful</name>
     <url>hhttps://github.com/teknolucion/Parlare.git</url>
-
-    <dependencies>
-        <dependency>
-            <groupId>parlare.server.httpd</groupId>
-            <artifactId>parlare-httpd</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-       
-    </dependencies>
 
     <build>
         <extensions>
@@ -91,4 +82,11 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>parlare.application.httpd</groupId>
+            <artifactId>parlare-httpd</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+    </dependencies>
 </project>

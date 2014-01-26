@@ -9,21 +9,6 @@
 
     <name>Parlare-FrontEnd</name>
     <url>https://github.com/teknolucion/Parlare.git</url>
-    
-    <dependencies>
-        <dependency>
-            <groupId>parlare.server.httpd</groupId>
-            <artifactId>parlare-httpd</artifactId>
-            <version>0.0.2</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
-            <groupId>parlare.server.restful</groupId>
-            <artifactId>parlare-restful</artifactId>
-            <version>0.0.1</version>
-            <type>jar</type>
-        </dependency>
-    </dependencies>
 
     <build>
         <extensions>
@@ -74,4 +59,16 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>parlare.application.httpd</groupId>
+            <artifactId>parlare-httpd</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>parlare.application.restful</groupId>
+            <artifactId>parlare-restful</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+    </dependencies>
 </project>

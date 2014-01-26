@@ -1,18 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>parlare.server</groupId>
-    <artifactId>parlare-server</artifactId>
-    <version>0.0.1</version>
+    <groupId>parlare.application</groupId>
+    <artifactId>parlare-application</artifactId>
+    <version>0.0.2</version>
     <packaging>pom</packaging>
 
-    <name>Parlare-Server</name>
+    <name>Parlare-Application</name>
     <url>hhttps://github.com/teknolucion/Parlare.git</url>
 
     <modules>
         <module>Parlare-HTTPD</module>
-        <module>Parlare-FrontEnd</module>
-        <module>Parlare-BackEnd</module>
+        <module>Parlare-Server</module>
+        <module>Parlare-FrontEnd</module>      
         <module>Parlare-RESTful</module>
     </modules>
 
