@@ -40,5 +40,5 @@ Portions of this software are based on the following projects:
 "mongodb"
 
 
-Copyright (C) 2013-2014. Jesus Rodriguez Miranda. Teknolucion. 
+Copyright (C) 2013-2014. Teusa. Teknolucion. 
 *Parlare* has been released under a GNU GENERAL PUBLIC LICENSE. 
