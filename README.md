@@ -1,11 +1,11 @@
-Parlare
+*Parlare*
 =======
 
 Parlare-HTTPD, Parlare-RESTful, Parlare-Server, Parlare-FrontEND
 
 
 
-What is "Parlare"?
+What is *Parlare*?
 =======
 
 *Parlare* is a set of tools for you can publish web and mobile applications with most famous javascript frameworks and templates (jQuery, AngularJS, EmberJS); 
@@ -41,4 +41,4 @@ Portions of this software are based on the following projects:
 
 
 Copyright (C) 2013-2014. Jesus Rodriguez Miranda. Teknolucion. 
-Parlare has been released under a GNU GENERAL PUBLIC LICENSE. 
+*Parlare* has been released under a GNU GENERAL PUBLIC LICENSE. 
