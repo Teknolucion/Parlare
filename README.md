@@ -35,6 +35,8 @@ Portions of this software are based on the following projects:
 
 "angularjs"
 
+"backbonejs"
+
 "mongodb"
 
 
