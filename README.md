@@ -1,7 +1,7 @@
 Parlare
 =======
 
-Parlare-HTTPD, Parlare-RESTful, Parlare-BackEND, Parlare-FrontEND
+Parlare-HTTPD, Parlare-RESTful, Parlare-Server, Parlare-FrontEND
 
 
 
