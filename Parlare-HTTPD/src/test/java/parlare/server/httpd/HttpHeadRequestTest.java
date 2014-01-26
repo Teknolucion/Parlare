@@ -23,7 +23,7 @@ public class HttpHeadRequestTest extends HttpServerTest {
                 "HTTP/1.1 200 OK",
                 "Content-Type: text/html; charset=utf-8",
                 "Date: .*",
-                "Server: Tekno HTTPD/1.0.5 Java",
+                "Server: Parlare HTTPD/0.0.1",
                 "Connection: keep-alive",
                 "Content-Length: 8",
                 ""

@@ -15,7 +15,7 @@ import java.util.Map;
  */
 public final class ControllerTest implements Controller {
     
-        public Map<String, String> httpParams;
+    public Map<String, String> httpParams;
     public Map<String, String> httpHeaders;
     private File httpFile;
     

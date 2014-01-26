@@ -664,7 +664,7 @@ public abstract class ParlareHTTPD {
                     pw.print(output);
                 }
                 
-                output = "Server: Tekno HTTPD/1.0.5 Java\r\n";
+                output = "Server: Parlare HTTPD/0.0.1\r\n";
                 System.out.print(output);
                 pw.print(output);
                 

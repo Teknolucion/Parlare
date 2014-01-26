@@ -4,9 +4,6 @@ import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
-import java.util.List;
-
-import static junit.framework.Assert.*;
 
 public class HttpDeleteRequestTest extends HttpServerTest {
 
@@ -20,7 +17,7 @@ public class HttpDeleteRequestTest extends HttpServerTest {
                 "HTTP/1.1 204 No Content",
                 "Content-Type: text/html; charset=utf-8",
                 "Date: .*",
-                "Server: Tekno HTTPD/1.0.5 Java",
+                "Server: Parlare HTTPD/0.0.1",
                 "Connection: keep-alive",
                 "Content-Length: 0",
                 ""
@@ -39,7 +36,7 @@ public class HttpDeleteRequestTest extends HttpServerTest {
                 "HTTP/1.1 204 No Content",
                 "Content-Type: text/html; charset=utf-8",
                 "Date: .*",
-                "Server: Tekno HTTPD/1.0.5 Java",
+                "Server: Parlare HTTPD/0.0.1",
                 "Connection: keep-alive",
                 "Content-Length: 0",
                 ""
@@ -58,7 +55,7 @@ public class HttpDeleteRequestTest extends HttpServerTest {
                 "HTTP/1.1 204 No Content",
                 "Content-Type: text/html; charset=utf-8",
                 "Date: .*",
-                "Server: Tekno HTTPD/1.0.5 Java",
+                "Server: Parlare HTTPD/0.0.1",
                 "Connection: keep-alive",
                 "Content-Length: 0",
                 ""
@@ -77,7 +74,7 @@ public class HttpDeleteRequestTest extends HttpServerTest {
                 "HTTP/1.1 200 OK",
                 "Content-Type: application/xml",
                 "Date: .*",
-                "Server: Tekno HTTPD/1.0.5 Java",
+                "Server: Parlare HTTPD/0.0.1",
                 "Connection: keep-alive",
                 "Content-Length: 8",
                 "",
@@ -97,7 +94,7 @@ public class HttpDeleteRequestTest extends HttpServerTest {
                 "HTTP/1.1 202 Accepted",
                 "Content-Type: application/xml",
                 "Date: .*",
-                "Server: Tekno HTTPD/1.0.5 Java",
+                "Server: Parlare HTTPD/0.0.1",
                 "Connection: keep-alive",
                 "Content-Length: 8",
                 "",

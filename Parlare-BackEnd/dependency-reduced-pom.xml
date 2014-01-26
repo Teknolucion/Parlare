@@ -5,7 +5,7 @@
   <artifactId>parlare-backend</artifactId>
   <name>Parlare-BackEnd</name>
   <version>0.0.1</version>
-  <url>hhttps://github.com/teknolucion/Parlare.git</url>
+  <url>https://github.com/teknolucion/Parlare.git</url>
   <build>
     <plugins>
       <plugin>
