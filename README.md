@@ -8,9 +8,7 @@ Parlare-HTTPD, Parlare-RESTful, Parlare-Server, Parlare-FrontEND
 What is *Parlare*?
 =======
 
-*Parlare* is a set of tools for you can publish web and mobile applications with most famous javascript frameworks and templates (jQuery, AngularJS, EmberJS); 
-a light-weight and powerful HTTP server based in Java, an accesible architecture "RESTful", as well as access to "NoSQL" technologies for your applications. 
-All with one click and one single package, with simple wizards and without programming skills, running in any operative system.
+*Parlare* is a tools set for you can publish web and mobile applications with most famous javascript frameworks like jQuery, AngularJS, EmberJS or structured package as Backbone; as well as extensive use of the templates like Mustache or Handlebars; a light-weight and powerful HTTP server based in Java, an accesible architecture "RESTful", as well as access to "NoSQL" technologies for your applications. All with one click and one single package, with simple wizards and without programming skills, running in any operative system.
 
 
 
@@ -40,5 +38,4 @@ Portions of this software are based on the following projects:
 "mongodb"
 
 
-Copyright (C) 2013-2014. Jesús Rodríguez Miranda. Teknolucion. 
-*Parlare* has been released under a GNU GENERAL PUBLIC LICENSE. 
+Copyright (C) 2013-2014. Jesús Rodríguez Miranda. Teknolucion. *Parlare* has been released under a GNU GENERAL PUBLIC LICENSE. 
