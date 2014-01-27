@@ -59,16 +59,4 @@
             </plugin>
         </plugins>
     </build>
-    <dependencies>
-        <dependency>
-            <groupId>parlare.application.httpd</groupId>
-            <artifactId>parlare-httpd</artifactId>
-            <version>0.0.2</version>
-        </dependency>
-        <dependency>
-            <groupId>parlare.application.restful</groupId>
-            <artifactId>parlare-restful</artifactId>
-            <version>0.0.2</version>
-        </dependency>
-    </dependencies>
 </project>
