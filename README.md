@@ -8,8 +8,7 @@ Parlare-HTTPD, Parlare-RESTful, Parlare-Server, Parlare-FrontEND
 What is *Parlare*?
 =======
 
-*Parlare* is a tools set for you can publish web and mobile applications with most famous javascript frameworks like jQuery, AngularJS, EmberJS or structured package as Backbone; as well as extensive use of the templates like Mustache or Handlebars; a light-weight and powerful HTTP server based in Java, an accesible architecture "RESTful", as well as access to "NoSQL" technologies for your applications. All with one click and one single package, with simple wizards and without programming skills, running in any operative system.
-
+*Parlare* is a tools set for you can publish web and mobile applications with most famous javascript frameworks like jQuery, AngularJS, EmberJS or structured package as Backbone; as well as extensive use of the templates like Mustache or Handlebars; a light-weight and powerful HTTP server based in Java, an accesible architecture "RESTful", and finally access to "NoSQL" technologies for your applications. All with one click and one single package, with simple wizards and without programming skills, running in any operative system.
 
 
 How do I install?
